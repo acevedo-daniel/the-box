@@ -17,9 +17,7 @@ the-box/
 └── .gitignore           # (global o por carpeta)
 ```
 
----
-
-## 🚀 ¿Cómo clonar y correr el proyecto?
+## 🚀 Instalación y ejecución
 
 1. **Clona el repositorio:**
    ```sh
@@ -49,9 +47,7 @@ the-box/
    - Frontend: [http://localhost:5173](http://localhost:5173)
    - API/Swagger: [http://localhost:5249/swagger](http://localhost:5249/swagger)
 
----
-
-## 📝 Cosas que debes modificar para que funcione en tu PC
+## 📝 Configuración requerida
 
 - **Cadena de conexión y SMTP:**
   - Edita `e-commerce-api/appsettings.json` con tu SQL Server y credenciales de email.
@@ -62,14 +58,10 @@ the-box/
 - **Datos de ejemplo:**
   - Usa los comandos SQL en `e-commerce-api/NOTAS.md` para poblar categorías y productos tras migrar la base.
 
----
-
 ## 📚 Documentación adicional
 - Lee los README de cada subcarpeta para detalles específicos de la API y la SPA.
 - Consulta `e-commerce-api/NOTAS.md` para tips, comandos SQL y troubleshooting.
 
----
-
 ## 👨‍💻 Créditos
-- Proyecto desarrollado por Acevedo Mario Daniel (Universidad Tecnológica Nacional UTN)
+- Proyecto desarrollado por Acevedo Mario Daniel y Alan Quenardelle (Universidad Tecnológica Nacional UTN)
 - Uso académico 

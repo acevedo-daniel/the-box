@@ -1,0 +1,61 @@
+# Diapositiva 1: Título
+API E-commerce: THE BOX
+Presentación para clase
+[Espacio para imagen: Logo o portada]
+
+# Diapositiva 2: ¿Qué es THE BOX?
+- Solución fullstack de e-commerce
+- Backend: ASP.NET Core
+- Frontend: React + Vite
+[Espacio para imagen: Portada o arquitectura]
+
+# Diapositiva 3: Arquitectura General
+- API RESTful
+- JWT para autenticación
+- SQL Server como base de datos
+[Espacio para imagen: Diagrama de arquitectura]
+
+# Diapositiva 4: Endpoints Principales
+- Auth: login, registro, recuperación
+- Productos: CRUD
+- Categorías: CRUD
+- QR: generación y validación
+[Espacio para imagen: Tabla o captura de Postman]
+
+# Diapositiva 5: Flujo de Autenticación
+1. Usuario inicia sesión/registro
+2. API responde con JWT
+3. Frontend usa el token
+[Espacio para imagen: Diagrama de flujo]
+
+# Diapositiva 6: Seguridad
+- Contraseñas hasheadas
+- JWT con expiración
+- Roles y protección de endpoints
+[Espacio para imagen: Icono de seguridad]
+
+# Diapositiva 7: Funcionalidad QR (Box Club)
+- Generación de QR único
+- Validación y acceso exclusivo
+[Espacio para imagen: Captura de pantalla de QR]
+
+# Diapositiva 8: Integración Frontend
+- Consumo de API con fetch/axios
+- Mensajes claros y navegación fluida
+[Espacio para imagen: Pantalla del frontend]
+
+# Diapositiva 9: Demostración
+- Registro/login
+- CRUD productos/categorías
+- Recuperación de contraseña
+- QR en acción
+[Espacio para imagen: Collage de capturas]
+
+# Diapositiva 10: Código y Documentación
+- Repositorio único
+- Scripts SQL y README
+[Espacio para imagen: Captura del repo]
+
+# Diapositiva 11: Preguntas
+¿Dudas o comentarios?
+[Espacio para imagen: Icono de preguntas] 

@@ -18,7 +18,6 @@ Esta API está diseñada para ser consumida por una SPA moderna y cumple con los
 - QRCoder
 - SMTP (Gmail) para envío de emails
 - Swagger (documentación y pruebas)
-- GitHub Actions (CI)
 
 ## ⚙️ Requisitos previos
 - .NET 9 SDK
@@ -31,6 +30,7 @@ Esta API está diseñada para ser consumida por una SPA moderna y cumple con los
    git clone <url-del-repo>
    cd e-commerce-api
    ```
+
 2. **Configura la base de datos y el email:**
    - Edita `appsettings.json` con tu cadena de conexión y credenciales SMTP:
      ```json
@@ -46,15 +46,18 @@ Esta API está diseñada para ser consumida por una SPA moderna y cumple con los
        "From": "tu-email@gmail.com"
      }
      ```
+
 3. **Restaura paquetes y aplica migraciones:**
    ```sh
    dotnet restore
    dotnet ef database update --project e-commerce-api.csproj
    ```
+
 4. **Ejecuta la API:**
    ```sh
    dotnet run --project e-commerce-api.csproj
    ```
+
 5. **Accede a Swagger:**
    - [https://localhost:7000/swagger](https://localhost:7000/swagger)
 
@@ -81,7 +84,7 @@ Esta API está diseñada para ser consumida por una SPA moderna y cumple con los
 **E-commerce de hardware tecnológico**: Gestión de productos, categorías y usuarios, con funcionalidades exclusivas vía QR y seguridad avanzada.
 
 ## 👨‍💻 Créditos
-- API desarrollada por Acevedo Mario Daniel (Universidad Tecnologica Nacional UTN)
+- API desarrollada por Acevedo Mario Daniel y Alan Quenardelle (Universidad Tecnologica Nacional UTN)
 
 ## 📄 Licencia
 Uso académico.
